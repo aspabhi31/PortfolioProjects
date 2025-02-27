@@ -1,0 +1,1 @@
+https://adf.azure.com/en/authoring/dataflow/PaypalTransformation?factory=%2Fsubscriptions%2Fae9da5c2-eb67-4ff1-8161-cf47901d4c4c%2FresourceGroups%2FAnalystBuilderResourceGroup%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fabhijeetsinghpawaradf
