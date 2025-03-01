@@ -1,0 +1,65 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "abhiapachepool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "6bdc3bc6-9e9d-4c07-8cf9-da837526212a"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1"
+			},
+			"enableDebugMode": false,
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/ae9da5c2-eb67-4ff1-8161-cf47901d4c4c/resourceGroups/AnalystBuilderResourceGroup/providers/Microsoft.Synapse/workspaces/abhijeets/bigDataPools/abhiapachepool",
+				"name": "abhiapachepool",
+				"type": "Spark",
+				"endpoint": "https://abhijeets.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/abhiapachepool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"from azureml.opendatasets import ChicagoSafety\n",
+					"\n",
+					"data = ChicagoSafety()\n",
+					"df = data.to_spark_dataframe()\n",
+					"# Display 10 rows\n",
+					"display(df.limit(10))"
+				]
+			}
+		]
+	}
+}
