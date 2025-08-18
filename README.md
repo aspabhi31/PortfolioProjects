@@ -1,16 +1,28 @@
 Welcome to my GitHub repository showcasing personal projects in computer engineering, data science, and machine learning. These projects demonstrate my skills in Python programming, data analysis, image processing, and predictive modeling. Each project includes a brief description, technologies used, and key implementations based on my work.
 Feel free to explore the code, provide feedback, or reach out via LinkedIn or email.
+
 Table of Contents
 
--Automatic License Plate Detection (ALPD) https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).ipynb)      https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).pdf 
--Combined Cycle Power Plant Energy Output Prediction https://github.com/aspabhi31/PortfolioProjects/tree/main/5.%20Project-Gradient%20Descent
--Titanic Survival Prediction using Logistic Regression https://github.com/aspabhi31/PortfolioProjects/tree/main/7.%20Project-Logistic%20Regression/Logistic%20Regression-Titanic%20Dataset 
--Technical Skills
--Contact
+1. Automatic License Plate Detection (ALPD) https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).ipynb)      https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).pdf
+
+
+2. Combined Cycle Power Plant Energy Output Prediction 
+https://github.com/aspabhi31/PortfolioProjects/tree/main/5.%20Project-Gradient%20Descent
+
+3. Titanic Survival Prediction using Logistic Regression 
+https://github.com/aspabhi31/PortfolioProjects/tree/main/7.%20Project-Logistic%20Regression/Logistic%20Regression-Titanic%20Dataset 
+
+4. Technical Skills
+
+5. Contact
+
 
 Automatic License Plate Detection (ALPD)
+
 Description
+
 This project involves designing and implementing an image processing pipeline for automatic license plate detection. It handles diverse lighting and angle conditions to accurately identify and isolate license plates from images.
+
 Technologies
 
 Python
@@ -33,8 +45,11 @@ Install dependencies: pip install numpy matplotlib opencv-python.
 Run the main script: python alpd.py (assuming images are in the data/ folder).
 
 Combined Cycle Power Plant Energy Output Prediction
+
 Description
+
 This project predicts the net hourly electrical energy output of a combined cycle power plant using ambient variables. It uses a custom Gradient Descent algorithm built from scratch on a dataset of 9,568 data points collected over 6 years.
+
 Technologies
 
 Python
@@ -56,8 +71,11 @@ Place the dataset in the data/ folder.
 Run the main script: python power_plant_prediction.py.
 
 Titanic Survival Prediction using Logistic Regression
+
 Description
+
 A binary classification model to predict passenger survival on the Titanic. It uses a dataset of 668 training samples and 223 test samples, with feature engineering to improve accuracy.
+
 Technologies
 
 Python
