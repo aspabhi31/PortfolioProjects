@@ -1,3 +1,5 @@
+                                                           Abhijeet Singh Pawar's Projects
+
 Welcome to my GitHub repository showcasing personal projects in computer engineering, data science, and machine learning. These projects demonstrate my skills in Python programming, data analysis, image processing, and predictive modeling. Each project includes a brief description, technologies used, and key implementations based on my work.
 Feel free to explore the code, provide feedback, or reach out via LinkedIn or email.
 
