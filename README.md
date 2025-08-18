@@ -1,13 +1,12 @@
-Abhijeet Singh Pawar's Projects
 Welcome to my GitHub repository showcasing personal projects in computer engineering, data science, and machine learning. These projects demonstrate my skills in Python programming, data analysis, image processing, and predictive modeling. Each project includes a brief description, technologies used, and key implementations based on my work.
 Feel free to explore the code, provide feedback, or reach out via LinkedIn or email.
 Table of Contents
 
-Automatic License Plate Detection (ALPD) [linktonotebook] (https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).ipynb)      [linktopdf] (https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).pdf)
-Combined Cycle Power Plant Energy Output Prediction [link] (https://github.com/aspabhi31/PortfolioProjects/tree/main/5.%20Project-Gradient%20Descent)
-Titanic Survival Prediction using Logistic Regression [link] (https://github.com/aspabhi31/PortfolioProjects/tree/main/7.%20Project-Logistic%20Regression/Logistic%20Regression-Titanic%20Dataset)
-Technical Skills
-Contact
+-Automatic License Plate Detection (ALPD) https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).ipynb)      https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).pdf 
+-Combined Cycle Power Plant Energy Output Prediction https://github.com/aspabhi31/PortfolioProjects/tree/main/5.%20Project-Gradient%20Descent
+-Titanic Survival Prediction using Logistic Regression https://github.com/aspabhi31/PortfolioProjects/tree/main/7.%20Project-Logistic%20Regression/Logistic%20Regression-Titanic%20Dataset 
+-Technical Skills
+-Contact
 
 Automatic License Plate Detection (ALPD)
 Description
