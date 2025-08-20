@@ -7,6 +7,10 @@ Welcome to the project repository of **Abhijeet Singh Pawar**. This collection h
 ## Projects
 
 ### 1. Automatic License Plate Detection (ALPD)
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).ipynb
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Automatic%20License%20Plate%20Detection(ALPD).pdf
+
+
 **Tech Stack:** Python, OpenCV, NumPy, Matplotlib  
 **Overview:**  
 Developed an image processing pipeline capable of detecting vehicle license plates under varying lighting and angle conditions.
@@ -19,6 +23,9 @@ Developed an image processing pipeline capable of detecting vehicle license plat
 ---
 
 ### 2. Combined Cycle Power Plant Energy Output Prediction
+https://github.com/aspabhi31/PortfolioProjects/tree/main/5.%20Project-Gradient%20Descent
+
+
 **Tech Stack:** Python, NumPy, scikit-learn  
 **Overview:**  
 Built a custom linear regression model from scratch to predict net hourly electrical energy output for power plant operations.
@@ -30,6 +37,9 @@ Built a custom linear regression model from scratch to predict net hourly electr
 ---
 
 ### 3. Titanic Survival Prediction using Logistic Regression
+https://github.com/aspabhi31/PortfolioProjects/tree/main/7.%20Project-Logistic%20Regression/Logistic%20Regression-Titanic%20Dataset
+
+
 **Tech Stack:** Python, Pandas, NumPy, scikit-learn  
 **Overview:**  
 Trained a logistic regression model to predict Titanic passenger survival.
