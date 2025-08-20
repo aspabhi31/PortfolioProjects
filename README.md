@@ -49,6 +49,55 @@ Trained a logistic regression model to predict Titanic passenger survival.
 - Explored ensemble models like Random Forest for comparison.
 - Submitted predictions as CSV, with comprehensive feature engineering.
 
+### 4. Case Study of U Food Marketing
+**Tools:** Python (Pandas, Seaborn, Matplotlib)  
+- Cleaned and preprocessed a “dirty” marketing dataset using Pandas.
+- Consolidated redundant columns to optimize the dataframe.
+- Explored correlations between various features and accepted campaigns.
+- Visualized insights with heatmaps, regplots, barplots, and pointplots.
+- Utilized group bys, value counts, and sorting for meaningful summaries.
+
+---
+
+### 5. Exploratory Data Analysis on US Household Income
+**Tools:** SQL, MySQL  
+- Performed structured data cleaning, including duplicate removal with window functions.
+- Standardized inconsistent or missing values using grouping and transformations.
+- Conducted statistical analyses such as Median and Mean Salary using JOINs.
+- Provided actionable socioeconomic insights from household income data.
+
+---
+
+### 6. ETL Pipelines and Data Transformation on Azure
+**Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
+- Designed and executed end-to-end ETL pipelines using Azure tools.
+- Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
+- Automated data movement between Azure components, exporting to CSV.
+- Built and triggered pipelines integrating storage accounts and SQL services.
+
+---
+
+### 7. US Debt Tracker
+**Tools:** Microsoft Excel  
+- Preprocessed debt data by transposing, filling nulls, and applying tables.
+- Utilized forecasting functions, pivot tables, and pivot charts for trend analysis.
+- Answered business-critical questions on year-over-year percentage change, largest monthly swings, and future debt forecasts.
+
+---
+
+### 8. Advanced Data Visualizations (Rental Properties Analysis)
+**Tools:** Tableau  
+- Loaded rental property data from Excel into Tableau.
+- Used calculated fields, bar graphs, trends, scatter plots, tables, and maps.
+- Built interactive dashboards, uncovering insights on neighborhoods, property types, and market dynamics.
+
+---
+
+### 9. Case Study of Startup Funding in India
+**Tools:** Python (Pandas, NumPy, Matplotlib)  
+- Cleaned and preprocessed a complex startup funding dataset.
+- Identified key regions, investor patterns, and top industries for Indian startups.
+- Created visualizations (pie charts, bar graphs, trend lines) and performed comparative group analysis by investment type.
 ---
 
 ## Technical Skills Used
