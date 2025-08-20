@@ -50,6 +50,9 @@ Trained a logistic regression model to predict Titanic passenger survival.
 - Submitted predictions as CSV, with comprehensive feature engineering.
 
 ### 4. Case Study of U Food Marketing
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
+
+
 **Tools:** Python (Pandas, Seaborn, Matplotlib)  
 - Cleaned and preprocessed a “dirty” marketing dataset using Pandas.
 - Consolidated redundant columns to optimize the dataframe.
@@ -60,6 +63,10 @@ Trained a logistic regression model to predict Titanic passenger survival.
 ---
 
 ### 5. Exploratory Data Analysis on US Household Income
+https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
+https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
+
+
 **Tools:** SQL, MySQL  
 - Performed structured data cleaning, including duplicate removal with window functions.
 - Standardized inconsistent or missing values using grouping and transformations.
@@ -78,6 +85,9 @@ Trained a logistic regression model to predict Titanic passenger survival.
 ---
 
 ### 7. US Debt Tracker
+https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
+
+
 **Tools:** Microsoft Excel  
 - Preprocessed debt data by transposing, filling nulls, and applying tables.
 - Utilized forecasting functions, pivot tables, and pivot charts for trend analysis.
@@ -86,6 +96,9 @@ Trained a logistic regression model to predict Titanic passenger survival.
 ---
 
 ### 8. Advanced Data Visualizations (Rental Properties Analysis)
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
+
+
 **Tools:** Tableau  
 - Loaded rental property data from Excel into Tableau.
 - Used calculated fields, bar graphs, trends, scatter plots, tables, and maps.
@@ -94,6 +107,10 @@ Trained a logistic regression model to predict Titanic passenger survival.
 ---
 
 ### 9. Case Study of Startup Funding in India
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
+
+
 **Tools:** Python (Pandas, NumPy, Matplotlib)  
 - Cleaned and preprocessed a complex startup funding dataset.
 - Identified key regions, investor patterns, and top industries for Indian startups.
