@@ -50,6 +50,7 @@ Trained a logistic regression model to predict Titanic passenger survival.
 - Submitted predictions as CSV, with comprehensive feature engineering.
 
 ### 4. Decision Tree Classifier from Scratch
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Decision%20Tree%20from%20scratch.ipynb
 
 A Python implementation of a decision tree classifier built from scratch, without relying on machine learning libraries for the core algorithm. The classifier is tested on the Breast Cancer Wisconsin dataset, achieving 92.98% accuracy.
 
