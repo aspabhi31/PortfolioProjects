@@ -49,7 +49,29 @@ Trained a logistic regression model to predict Titanic passenger survival.
 - Explored ensemble models like Random Forest for comparison.
 - Submitted predictions as CSV, with comprehensive feature engineering.
 
-### 4. Case Study of U Food Marketing
+### 4. Decision Tree Classifier from Scratch
+
+A Python implementation of a decision tree classifier built from scratch, without relying on machine learning libraries for the core algorithm. The classifier is tested on the Breast Cancer Wisconsin dataset, achieving 92.98% accuracy.
+
+#### Project Overview
+This project demonstrates a complete implementation of a decision tree classifier, including:
+- Entropy and information gain calculations for optimal splits.
+- Recursive tree construction with random feature selection.
+- Prediction logic for classifying new samples.
+- Testing on the Breast Cancer Wisconsin dataset from scikit-learn.
+
+#### Features
+- Implements a `Node` class for tree structure (internal and leaf nodes).
+- Supports random feature selection to mimic random forest behavior.
+- Uses NumPy for efficient array operations and `Counter` for majority voting.
+- Configurable parameters: `min_samples_split`, `max_depth`, `n_features`.
+
+#### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Decision-Tree-from-Scratch.git
+
+### 5. Case Study of U Food Marketing
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
 
 
@@ -62,7 +84,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%2
 
 ---
 
-### 5. Exploratory Data Analysis on US Household Income
+### 6. Exploratory Data Analysis on US Household Income
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
 
@@ -75,7 +97,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 6. ETL Pipelines and Data Transformation on Azure
+### 7. ETL Pipelines and Data Transformation on Azure
 **Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
 - Designed and executed end-to-end ETL pipelines using Azure tools.
 - Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
@@ -84,7 +106,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 7. US Debt Tracker
+### 8. US Debt Tracker
 https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
 
 
@@ -95,7 +117,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20P
 
 ---
 
-### 8. Advanced Data Visualizations (Rental Properties Analysis)
+### 9. Advanced Data Visualizations (Rental Properties Analysis)
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
 
 
@@ -106,7 +128,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%2
 
 ---
 
-### 9. Case Study of Startup Funding in India
+### 10. Case Study of Startup Funding in India
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
 
