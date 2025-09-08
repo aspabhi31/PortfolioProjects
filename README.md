@@ -118,7 +118,24 @@ Run the notebook to train models and generate predictions.
 #### Results
 Ensemble accuracy: ~99% (as per notebook output).
 
-### 7. Case Study of U Food Marketing
+### 7. Twitter Sentiment Analysis on US Airline Tweets
+
+This project performs sentiment analysis on tweets about US airlines to classify them as positive, negative, or neutral using Natural Language Processing (NLP) techniques and machine learning. The dataset contains tweets from passengers, and the goal is to predict sentiment based on tweet content.
+
+#### Project Overview
+
+- **Objective**: Classify the sentiment of tweets about US airlines (positive, negative, neutral) using a Multinomial Naive Bayes classifier.
+- **Dataset**: 
+  - `train.csv`: Contains tweets with labeled sentiments (positive, negative, neutral).
+  - `test.csv`: Contains tweets for which sentiments are predicted.
+- **Technologies**: Python, Pandas, NLTK, Scikit-learn.
+- **Methodology**: 
+  - Preprocess tweets by tokenizing, removing stopwords, and lemmatizing.
+  - Convert text to numerical features using CountVectorizer with unigrams, bigrams, and trigrams.
+  - Train a Multinomial Naive Bayes model and predict sentiments for the test set.
+- **Output**: Predictions saved to `pred.csv`
+
+### 8. Case Study of U Food Marketing
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
 
 
@@ -131,7 +148,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%2
 
 ---
 
-### 8. Exploratory Data Analysis on US Household Income
+### 9. Exploratory Data Analysis on US Household Income
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
 
@@ -144,7 +161,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 9. ETL Pipelines and Data Transformation on Azure
+### 10. ETL Pipelines and Data Transformation on Azure
 **Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
 - Designed and executed end-to-end ETL pipelines using Azure tools.
 - Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
@@ -153,7 +170,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 10. US Debt Tracker
+### 11. US Debt Tracker
 https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
 
 
@@ -164,7 +181,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20P
 
 ---
 
-### 11. Advanced Data Visualizations (Rental Properties Analysis)
+### 12. Advanced Data Visualizations (Rental Properties Analysis)
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
 
 
@@ -175,7 +192,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%2
 
 ---
 
-### 12. Case Study of Startup Funding in India
+### 13. Case Study of Startup Funding in India
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
 
