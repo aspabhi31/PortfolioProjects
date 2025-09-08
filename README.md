@@ -102,7 +102,21 @@ Classification Report: Details precision, recall, and F1-score per class (Cell 2
 
 Observations: Some classes have lower recall due to limited features. Increasing features improves performance but with diminishing returns.
    
-### 6. Case Study of U Food Marketing
+### 6. CIFAR-10 Ensemble Classifier
+
+This project uses PCA and an ensemble of classifiers (Random Forest, Logistic Regression, KNN, SVM) on the CIFAR-10 dataset.
+
+#### Requirements
+- Python 3
+- Libraries: cifar10, numpy, matplotlib, scikit-learn
+
+#### Usage
+Run the notebook to train models and generate predictions.
+
+#### Results
+Ensemble accuracy: ~99% (as per notebook output).
+
+### 7. Case Study of U Food Marketing
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
 
 
@@ -115,7 +129,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%2
 
 ---
 
-### 7. Exploratory Data Analysis on US Household Income
+### 8. Exploratory Data Analysis on US Household Income
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
 
@@ -128,7 +142,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 8. ETL Pipelines and Data Transformation on Azure
+### 9. ETL Pipelines and Data Transformation on Azure
 **Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
 - Designed and executed end-to-end ETL pipelines using Azure tools.
 - Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
@@ -137,7 +151,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 9. US Debt Tracker
+### 10. US Debt Tracker
 https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
 
 
@@ -148,7 +162,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20P
 
 ---
 
-### 10. Advanced Data Visualizations (Rental Properties Analysis)
+### 11. Advanced Data Visualizations (Rental Properties Analysis)
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
 
 
@@ -159,7 +173,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%2
 
 ---
 
-### 11. Case Study of Startup Funding in India
+### 12. Case Study of Startup Funding in India
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
 
