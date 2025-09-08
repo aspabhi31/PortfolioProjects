@@ -104,6 +104,8 @@ Observations: Some classes have lower recall due to limited features. Increasing
    
 ### 6. CIFAR-10 Ensemble Classifier
 
+https://github.com/aspabhi31/PortfolioProjects/blob/main/19.%20Project-Cifar10/Solution%20(1).ipynb
+
 This project uses PCA and an ensemble of classifiers (Random Forest, Logistic Regression, KNN, SVM) on the CIFAR-10 dataset.
 
 #### Requirements
