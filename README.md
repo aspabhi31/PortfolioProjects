@@ -120,6 +120,8 @@ Ensemble accuracy: ~99% (as per notebook output).
 
 ### 7. Twitter Sentiment Analysis on US Airline Tweets
 
+https://github.com/aspabhi31/PortfolioProjects/blob/main/22.%20Project-Twitter%20Sentiment%20Analysis/TwitterSentimentAnalysisonUSAirlineTweets.ipynb
+
 This project performs sentiment analysis on tweets about US airlines to classify them as positive, negative, or neutral using Natural Language Processing (NLP) techniques and machine learning. The dataset contains tweets from passengers, and the goal is to predict sentiment based on tweet content.
 
 #### Project Overview
