@@ -137,25 +137,27 @@ This project performs sentiment analysis on tweets about US airlines to classify
   - Train a Multinomial Naive Bayes model and predict sentiments for the test set.
 - **Output**: Predictions saved to `pred.csv`
 
-# 8. Distracted Driver Detection
+### 8. Distracted Driver Detection
+
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Distracted%20driver%20detection.ipynb
 
 This project uses a CNN built with Keras/TensorFlow to classify driver images into 10 distraction categories (c0-c9) from the State Farm Kaggle competition.
 
-## Dataset
+#### Dataset
 - From: https://www.kaggle.com/c/state-farm-distracted-driver-detection
 - Classes: c0 (safe driving), c1 (texting right), etc.
 
-## Model
+#### Model
 - Simple CNN with Conv2D, MaxPooling, and Dense layers.
 - Trained using ImageDataGenerator on the train set.
 - Predictions on test images saved to `predictions.txt`.
 
-## How to Run
+#### How to Run
 1. Download the dataset.
 2. Update paths in the notebook.
 3. Run in Jupyter or Colab.
 
-## Requirements
+#### Requirements
 - TensorFlow/Keras
 - Pandas, NumPy, etc.
   
