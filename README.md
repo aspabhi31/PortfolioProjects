@@ -137,7 +137,29 @@ This project performs sentiment analysis on tweets about US airlines to classify
   - Train a Multinomial Naive Bayes model and predict sentiments for the test set.
 - **Output**: Predictions saved to `pred.csv`
 
-### 8. Case Study of U Food Marketing
+# 8. Distracted Driver Detection
+
+This project uses a CNN built with Keras/TensorFlow to classify driver images into 10 distraction categories (c0-c9) from the State Farm Kaggle competition.
+
+## Dataset
+- From: https://www.kaggle.com/c/state-farm-distracted-driver-detection
+- Classes: c0 (safe driving), c1 (texting right), etc.
+
+## Model
+- Simple CNN with Conv2D, MaxPooling, and Dense layers.
+- Trained using ImageDataGenerator on the train set.
+- Predictions on test images saved to `predictions.txt`.
+
+## How to Run
+1. Download the dataset.
+2. Update paths in the notebook.
+3. Run in Jupyter or Colab.
+
+## Requirements
+- TensorFlow/Keras
+- Pandas, NumPy, etc.
+  
+### 9. Case Study of U Food Marketing
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
 
 
@@ -150,7 +172,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%2
 
 ---
 
-### 9. Exploratory Data Analysis on US Household Income
+### 10. Exploratory Data Analysis on US Household Income
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
 
@@ -163,7 +185,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 10. ETL Pipelines and Data Transformation on Azure
+### 11. ETL Pipelines and Data Transformation on Azure
 **Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
 - Designed and executed end-to-end ETL pipelines using Azure tools.
 - Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
@@ -172,7 +194,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 11. US Debt Tracker
+### 12. US Debt Tracker
 https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
 
 
@@ -183,7 +205,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20P
 
 ---
 
-### 12. Advanced Data Visualizations (Rental Properties Analysis)
+### 13. Advanced Data Visualizations (Rental Properties Analysis)
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
 
 
@@ -194,7 +216,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%2
 
 ---
 
-### 13. Case Study of Startup Funding in India
+### 14. Case Study of Startup Funding in India
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
 
