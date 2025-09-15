@@ -160,8 +160,34 @@ This project uses a CNN built with Keras/TensorFlow to classify driver images in
 #### Requirements
 - TensorFlow/Keras
 - Pandas, NumPy, etc.
+
+### 9. Neural Machine Translation (French to English)
+
+https://github.com/aspabhi31/PortfolioProjects/blob/main/Neural_Machine_Translation(French_to_English).ipynb
+
+This project implements a neural machine translation model using TensorFlow to translate French sentences to English. The model uses an LSTM-based sequence-to-sequence architecture.
+
+#### Requirements
+- Python 3
+- TensorFlow
+- NumPy
+- NLTK
+- scikit-learn
+
+#### Dataset
+The dataset (`fra.txt`) is sourced from http://www.manythings.org/anki/.
+
+#### Usage
+1. Install dependencies: `pip install tensorflow numpy nltk scikit-learn`
+2. Place `fra.txt` in the project directory.
+3. Run the Jupyter Notebook: `jupyter notebook Neural_Machine_Translation(French_to_English).ipynb`
+
+#### Model Details
+- Encoder-Decoder LSTM architecture
+- Trained on 100 samples for 30 epochs
+- Designed an encoder-decoder architecture with embedding and LSTM layers, achieving a validation accuracy of 87.32%
   
-### 9. Case Study of U Food Marketing
+### 10. Case Study of U Food Marketing
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%20Food%20Marketing%20Analysis.ipynb
 
 
@@ -174,7 +200,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Python%20Project-%20U%2
 
 ---
 
-### 10. Exploratory Data Analysis on US Household Income
+### 11. Exploratory Data Analysis on US Household Income
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20income%20Data%20Cleaning.sql
 https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%20Income%20Data%20Exploration.sql
 
@@ -187,7 +213,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 11. ETL Pipelines and Data Transformation on Azure
+### 12. ETL Pipelines and Data Transformation on Azure
 **Tools:** Azure Data Factory, Storage Accounts, Azure Data Studio, Azure SQL Database  
 - Designed and executed end-to-end ETL pipelines using Azure tools.
 - Transformed and cleaned data (JOINs, Filters) within Azure SQL Database.
@@ -196,7 +222,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/SQL-%20US%20Household%2
 
 ---
 
-### 12. US Debt Tracker
+### 13. US Debt Tracker
 https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20Project.xlsx
 
 
@@ -207,7 +233,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/US%20Debt%20Tracker%20P
 
 ---
 
-### 13. Advanced Data Visualizations (Rental Properties Analysis)
+### 14. Advanced Data Visualizations (Rental Properties Analysis)
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%20Rental%20Properties%20Analysis%20Dashboard%20for%20StayCatin.com.txt
 
 
@@ -218,7 +244,7 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Data%20Visualization-%2
 
 ---
 
-### 14. Case Study of Startup Funding in India
+### 15. Case Study of Startup Funding in India
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%201.ipynb
 https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Case%20Study%20Python%20Project%20Part%202.ipynb
 
