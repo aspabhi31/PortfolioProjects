@@ -253,6 +253,47 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Ca
 - Cleaned and preprocessed a complex startup funding dataset.
 - Identified key regions, investor patterns, and top industries for Indian startups.
 - Created visualizations (pie charts, bar graphs, trend lines) and performed comparative group analysis by investment type.
+### 16. BERT-based SMS Spam Classifier
+
+A **BERT-powered binary text classifier** to detect spam in SMS messages using Hugging Face Transformers. This project fine-tunes the `bert-base-uncased` model on the **SMS Spam Collection Dataset** from UCI.
+
+---
+
+#### Dataset
+
+- **Source**: [UCI SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
+- **Original Size**: 5,572 messages
+- **Labels**: `ham` (0), `spam` (1)
+- **Class Distribution (Original)**:
+  - Ham: 4,825 (86.6%)
+  - Spam: 747 (13.4%)
+- **Balanced Subset Used**: 1,000 `ham` + 747 `spam` = **1,747 samples**
+
+> Dataset file: `spam.csv` (included)
+
+---
+
+#### Project Overview
+
+This notebook demonstrates:
+- Loading and preprocessing SMS data
+- Handling class imbalance via undersampling
+- Tokenization with `BertTokenizer`
+- Fine-tuning `BertModel` for binary classification
+- Training with PyTorch and Hugging Face
+- Evaluation using accuracy, precision, recall, F1
+
+---
+
+#### Requirements
+
+```txt
+torch>=1.9
+transformers>=4.0
+datasets
+pandas
+scikit-learn
+numpy
 ---
 
 ## Technical Skills Used
