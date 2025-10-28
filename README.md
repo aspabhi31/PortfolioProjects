@@ -257,8 +257,9 @@ https://github.com/aspabhi31/PortfolioProjects/blob/main/Startups%20funding%20Ca
 
 A **BERT-powered binary text classifier** to detect spam in SMS messages using Hugging Face Transformers. This project fine-tunes the `bert-base-uncased` model on the **SMS Spam Collection Dataset** from UCI.
 
----
+https://github.com/aspabhi31/PortfolioProjects/blob/main/bert_spam_classification%20(1).ipynb
 
+---
 #### Dataset
 
 - **Source**: [UCI SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
@@ -283,17 +284,6 @@ This notebook demonstrates:
 - Training with PyTorch and Hugging Face
 - Evaluation using accuracy, precision, recall, F1
 
----
-
-#### Requirements
-
-```txt
-torch>=1.9
-transformers>=4.0
-datasets
-pandas
-scikit-learn
-numpy
 ---
 
 ## Technical Skills Used
