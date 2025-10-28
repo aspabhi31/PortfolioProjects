@@ -287,6 +287,8 @@ This notebook demonstrates:
 ---
 ### 17. Vehicle Damage Detection Project
 
+https://github.com/aspabhi31/PortfolioProjects/tree/main/Project-Car%20Damage%20Detection
+
 A deep learning-based multi-class image classifier for detecting vehicle damage using PyTorch and a fine-tuned ResNet50 model. The project identifies damage types and locations (front/rear) in vehicle images, categorizing them as normal, breakage, or crushed.
 
 This repository includes two Jupyter notebooks:
