@@ -285,6 +285,44 @@ This notebook demonstrates:
 - Evaluation using accuracy, precision, recall, F1
 
 ---
+### 17. Vehicle Damage Detection Project
+
+A deep learning-based multi-class image classifier for detecting vehicle damage using PyTorch and a fine-tuned ResNet50 model. The project identifies damage types and locations (front/rear) in vehicle images, categorizing them as normal, breakage, or crushed.
+
+This repository includes two Jupyter notebooks:
+- **damage_prediction.ipynb**: Main training, evaluation, and prediction pipeline.
+- **hyperparameter_tunning.ipynb**: Hyperparameter optimization using Optuna to find the best learning rate and dropout values.
+
+---
+
+#### Dataset
+
+- **Source**: Custom dataset (not publicly available; assumed to be in `./dataset` folder). If you have your own dataset, structure it similarly.
+- **Classes** (6 total):
+  - F_Breakage (Front Breakage)
+  - F_Crushed (Front Crushed)
+  - F_Normal (Front Normal)
+  - R_Breakage (Rear Breakage)
+  - R_Crushed (Rear Crushed)
+  - R_Normal (Rear Normal)
+- **Size**: 2,300 images.
+- **Split**: 75% training (1,725 images), 25% validation (575 images).
+- **Preprocessing**: Augmentations include random horizontal flip, rotation (10°), color jitter, resize to 224x224, normalization (ImageNet stats).
+
+> **Note**: Place your dataset in a `./dataset` folder with subfolders for each class. If the dataset is large, consider using Git LFS or linking to an external source (e.g., Google Drive or Kaggle).
+
+---
+
+#### Project Overview
+
+- **Model**: Pre-trained ResNet50 (from `torchvision.models`), with frozen layers except `layer4` and a custom fully connected head (dropout + linear layer).
+- **Fine-Tuning**: Only trainable layers are optimized using Adam.
+- **Hyperparameter Tuning** (in `hyperparameter_tunning.ipynb`): Uses Optuna to optimize learning rate (lr) and dropout rate. Best params from example runs: lr ≈ 0.0004–0.005, dropout ≈ 0.2–0.66 (results may vary due to randomness).
+- **Training** (in `damage_prediction.ipynb`): 10 epochs, CrossEntropyLoss, Adam optimizer.
+- **Evaluation**: Accuracy, precision, recall, F1-score, and confusion matrix.
+- **Prediction**: Example inference on new images.
+
+---
 
 ## Technical Skills Used
 
